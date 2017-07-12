@@ -5,6 +5,8 @@ This a sample project done to present the accessing the data classes of type Kot
 You find there are 3 model class defined in a single Kotlin file named Employee.kt( please ignor the file name ). 
 We need not have setter getter as it will be auto handled for us by Kotlin. Just define a variable in constructor, you can also have default values to it.
 
+# Defining a Kotlin data class
+data class Bank ( var name : String = "" )
 
 # Accessing Kotlin data class
 Intresting part here is that from native.cpp we can access the Kotlin data class
